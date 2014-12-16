@@ -17,9 +17,14 @@ public class Runner {
     	        assert false;  
     	    } 
  
-//My new thing
-	public static void main(String[] args) {
 
+	public static void main(String[] args) {
+		
+		        int x = 1;  
+		        assert (x > 0) : "assertion failed"; /* Line 6 */
+		        
+		        System.out.println("finished"); 
+		
 	}
 
 }
